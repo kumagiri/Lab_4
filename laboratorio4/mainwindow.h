@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QGraphicsScene>
+#include <ui_nuevaparticula.h>
+#include "particula.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,7 +18,14 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+    void on_nuevo_clicked();
+
+
 private:
+
     Ui::MainWindow *ui;
+    QGraphicsScene *escena;
 };
 #endif // MAINWINDOW_H

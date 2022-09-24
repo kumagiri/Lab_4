@@ -10,13 +10,14 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    movimiento.cpp \
+    particula.cpp
 
 HEADERS += \
-    mainwindow.h
+    movimiento.h \
+    particula.h
 
-FORMS += \
-    mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
