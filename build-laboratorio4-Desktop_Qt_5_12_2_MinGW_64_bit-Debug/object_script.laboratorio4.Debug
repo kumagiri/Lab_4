@@ -1,0 +1,10 @@
+debug/circulo.o
+debug/main.o
+debug/ventana1.o
+debug/ventana2.o
+debug/ventana3.o
+debug/widget.o
+debug/moc_ventana1.o
+debug/moc_ventana2.o
+debug/moc_ventana3.o
+debug/moc_widget.o

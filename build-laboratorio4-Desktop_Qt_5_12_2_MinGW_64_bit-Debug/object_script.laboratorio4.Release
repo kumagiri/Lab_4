@@ -1,0 +1,10 @@
+release/circulo.o
+release/main.o
+release/ventana1.o
+release/ventana2.o
+release/ventana3.o
+release/widget.o
+release/moc_ventana1.o
+release/moc_ventana2.o
+release/moc_ventana3.o
+release/moc_widget.o
